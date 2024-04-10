@@ -3,7 +3,7 @@ import {
 } from "/build/_shared/chunk-ZWGWGGVF.js";
 import {
   RemixBrowser
-} from "/build/_shared/chunk-D5F7VTZS.js";
+} from "/build/_shared/chunk-J5IH3TBD.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
@@ -13,7 +13,7 @@ import {
 } from "/build/_shared/chunk-BOXFZXVX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-QASSMYPI.js";
+} from "/build/_shared/chunk-LUNAMWEU.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -26,9 +26,9 @@ var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app\\entry.client.tsx"
+    "app/entry.client.tsx"
   );
-  import.meta.hot.lastModified = "1712713129309.5637";
+  import.meta.hot.lastModified = "1712754103777.3323";
 }
 (0, import_react2.startTransition)(() => {
   (0, import_client.hydrateRoot)(
@@ -44,4 +44,4 @@ if (import.meta) {
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-57JQFQ2A.js.map
+//# sourceMappingURL=/build/entry.client-MSGBXRKD.js.map

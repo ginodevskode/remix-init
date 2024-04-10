@@ -6,7 +6,7 @@ import {
 } from "/build/_shared/chunk-BOXFZXVX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-QASSMYPI.js";
+} from "/build/_shared/chunk-LUNAMWEU.js";
 import {
   __commonJS,
   __esm,
@@ -14149,7 +14149,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"node_modules\\\\@remix-run\\\\react\\\\dist\\\\esm\\\\browser.js"' + id);
+    window.$RefreshRuntime$.register(type, '"node_modules/@remix-run/react/dist/esm/browser.js"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -14159,7 +14159,7 @@ var _s = $RefreshSig$();
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "node_modules\\@remix-run\\react\\dist\\esm\\browser.js"
+    "node_modules/@remix-run/react/dist/esm/browser.js"
   );
 }
 var router;
@@ -14778,4 +14778,4 @@ react-router-dom/dist/index.js:
    * @license MIT
    *)
 */
-//# sourceMappingURL=/build/_shared/chunk-D5F7VTZS.js.map
+//# sourceMappingURL=/build/_shared/chunk-J5IH3TBD.js.map

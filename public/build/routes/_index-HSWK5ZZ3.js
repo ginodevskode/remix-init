@@ -1,6 +1,6 @@
 import {
   Link
-} from "/build/_shared/chunk-D5F7VTZS.js";
+} from "/build/_shared/chunk-J5IH3TBD.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
@@ -8,14 +8,14 @@ import {
 import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-QASSMYPI.js";
+} from "/build/_shared/chunk-LUNAMWEU.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
 
-// app/styles/index.css
-var styles_default = "/build/_assets/index-CJVCZSQ6.css";
+// app/styles/routes-styles/index.css
+var routes_styles_default = "/build/_assets/index-OHZHCAED.css";
 
 // app/routes/_index.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -25,7 +25,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app\\\\routes\\\\_index.tsx"' + id);
+    window.$RefreshRuntime$.register(type, '"app/routes/_index.tsx"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -34,7 +34,7 @@ var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app\\routes\\_index.tsx"
+    "app/routes/_index.tsx"
   );
 }
 var meta = () => {
@@ -57,7 +57,7 @@ function Index() {
       lineNumber: 33,
       columnNumber: 7
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { id: "cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/notes", children: "Try Now!" }, void 0, false, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("p", { id: "cta", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "/notes", children: "go to notes" }, void 0, false, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 35,
       columnNumber: 9
@@ -76,7 +76,7 @@ _c = Index;
 function links() {
   return [{
     rel: "stylesheet",
-    href: styles_default
+    href: routes_styles_default
   }];
 }
 var _c;
@@ -88,4 +88,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/routes/_index-Q5XBJUBE.js.map
+//# sourceMappingURL=/build/routes/_index-HSWK5ZZ3.js.map
