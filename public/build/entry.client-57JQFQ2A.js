@@ -3,18 +3,18 @@ import {
 } from "/build/_shared/chunk-ZWGWGGVF.js";
 import {
   RemixBrowser
-} from "/build/_shared/chunk-5HC3ARYC.js";
+} from "/build/_shared/chunk-D5F7VTZS.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
 import {
-  createHotContext
-} from "/build/_shared/chunk-WX3ZUAXT.js";
-import "/build/_shared/chunk-UWV35TSL.js";
-import {
   require_react
 } from "/build/_shared/chunk-BOXFZXVX.js";
+import {
+  createHotContext
+} from "/build/_shared/chunk-QASSMYPI.js";
+import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
@@ -26,9 +26,9 @@ var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app/entry.client.tsx"
+    "app\\entry.client.tsx"
   );
-  import.meta.hot.lastModified = "1712604527116.7092";
+  import.meta.hot.lastModified = "1712713129309.5637";
 }
 (0, import_react2.startTransition)(() => {
   (0, import_client.hydrateRoot)(
@@ -44,4 +44,4 @@ if (import.meta) {
     }, this)
   );
 });
-//# sourceMappingURL=/build/entry.client-Z2WIL3ZS.js.map
+//# sourceMappingURL=/build/entry.client-57JQFQ2A.js.map

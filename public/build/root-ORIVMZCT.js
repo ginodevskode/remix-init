@@ -4,19 +4,22 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-5HC3ARYC.js";
+} from "/build/_shared/chunk-D5F7VTZS.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
+import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-WX3ZUAXT.js";
+} from "/build/_shared/chunk-QASSMYPI.js";
 import "/build/_shared/chunk-UWV35TSL.js";
-import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
+
+// app/styles/main.css
+var main_default = "/build/_assets/main-THLKTWJO.css";
 
 // app/root.tsx
 var import_jsx_dev_runtime = __toESM(require_jsx_dev_runtime(), 1);
@@ -26,7 +29,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app/root.tsx"' + id);
+    window.$RefreshRuntime$.register(type, '"app\\\\root.tsx"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -35,9 +38,8 @@ var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app/root.tsx"
+    "app\\root.tsx"
   );
-  import.meta.hot.lastModified = "1712604527116.8828";
 }
 function Layout({
   children
@@ -101,6 +103,12 @@ function App() {
   }, this);
 }
 _c2 = App;
+function links() {
+  return [{
+    rel: "stylesheet",
+    href: main_default
+  }];
+}
 var _c;
 var _c2;
 $RefreshReg$(_c, "Layout");
@@ -109,6 +117,7 @@ window.$RefreshReg$ = prevRefreshReg;
 window.$RefreshSig$ = prevRefreshSig;
 export {
   Layout,
-  App as default
+  App as default,
+  links
 };
-//# sourceMappingURL=/build/root-5BOG2QLF.js.map
+//# sourceMappingURL=/build/root-ORIVMZCT.js.map

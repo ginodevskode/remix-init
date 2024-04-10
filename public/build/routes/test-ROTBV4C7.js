@@ -1,11 +1,11 @@
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
+import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   createHotContext
-} from "/build/_shared/chunk-WX3ZUAXT.js";
+} from "/build/_shared/chunk-QASSMYPI.js";
 import "/build/_shared/chunk-UWV35TSL.js";
-import "/build/_shared/chunk-BOXFZXVX.js";
 import {
   __toESM
 } from "/build/_shared/chunk-PNG5AS42.js";
@@ -18,7 +18,7 @@ if (!window.$RefreshReg$ || !window.$RefreshSig$ || !window.$RefreshRuntime$) {
   prevRefreshReg = window.$RefreshReg$;
   prevRefreshSig = window.$RefreshSig$;
   window.$RefreshReg$ = (type, id) => {
-    window.$RefreshRuntime$.register(type, '"app/routes/test.tsx"' + id);
+    window.$RefreshRuntime$.register(type, '"app\\\\routes\\\\test.tsx"' + id);
   };
   window.$RefreshSig$ = window.$RefreshRuntime$.createSignatureFunctionForTransform;
 }
@@ -27,9 +27,9 @@ var prevRefreshSig;
 if (import.meta) {
   import.meta.hot = createHotContext(
     //@ts-expect-error
-    "app/routes/test.tsx"
+    "app\\routes\\test.tsx"
   );
-  import.meta.hot.lastModified = "1712678688318.7744";
+  import.meta.hot.lastModified = "1712713129311.0383";
 }
 function Test() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: "Test" }, void 0, false, {
@@ -46,4 +46,4 @@ window.$RefreshSig$ = prevRefreshSig;
 export {
   Test as default
 };
-//# sourceMappingURL=/build/routes/test-PU3RLFIF.js.map
+//# sourceMappingURL=/build/routes/test-ROTBV4C7.js.map
