@@ -1,5 +1,6 @@
-import { redirect } from "@remix-run/node";
-import { Link, useRouteError, useLoaderData } from "@remix-run/react";
+/* eslint-disable react/prop-types */
+import { redirect , json } from "@remix-run/node";
+import { Link, useRouteError, useLoaderData, Outlet, useLocation } from "@remix-run/react";
 
 import NewNote, {
   links as newNoteLinks,
@@ -9,11 +10,15 @@ import { getStoredNotes, storeNotes } from "../data/note";
 
 export default function NotesPage() {
   const notes = useLoaderData();
+  const {pathname} = useLocation()
+
 
   return (
     <main>
-      <NewNote />
+      <h1>Notes</h1>
       <NoteList notes={notes} />
+      <Link to={`${pathname}/create`}>create note</Link>
+      <Outlet />
     </main>
   );
 }
