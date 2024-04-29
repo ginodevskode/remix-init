@@ -1,40 +1,27 @@
 /* eslint-disable react/prop-types */
-import { redirect , json } from "@remix-run/node";
-import { Link, useRouteError, useLoaderData, Outlet, useLocation } from "@remix-run/react";
+import { redirect } from "@remix-run/node";
+import { Link, useRouteError, Outlet, NavLink } from "@remix-run/react";
+import notesStyles from "app/styles/routes-styles/notes.css";
 
-import NewNote, {
-  links as newNoteLinks,
-} from "../components/newNotes/newNotes";
-import NoteList, { links as noteListLinks } from "../components/notes/noteList";
 import { getStoredNotes, storeNotes } from "../data/note";
 
 export default function NotesPage() {
-  const notes = useLoaderData();
-  const {pathname} = useLocation()
-
-
   return (
-    <main>
+    <main className="container">
       <h1>Notes</h1>
-      <NoteList notes={notes} />
-      <Link to={`${pathname}/create`}>create note</Link>
+      <nav className="navigation">
+        <ul>
+          <li className="nav-item">
+            <NavLink to="/notes/list">NoteList</NavLink>
+          </li>
+          <li className="nav-item">
+            <NavLink to="/notes/create">Create</NavLink>
+          </li>
+        </ul>
+      </nav>
       <Outlet />
     </main>
   );
-}
-
-export async function loader() {
-  const notes = await getStoredNotes();
-  if (!notes || notes.length === 0) {
-    throw json(
-      { message: "Could not find any notes." },
-      {
-        status: 404,
-        statusText: "Not Found",
-      }
-    );
-  }
-  return notes;
 }
 
 export async function action({ request }) {
@@ -53,10 +40,6 @@ export async function action({ request }) {
   return redirect("/notes");
 }
 
-export function links() {
-  return [...newNoteLinks(), ...noteListLinks()];
-}
-
 export function CatchBoundary() {
   const caughtResponse = useRouteError();
 
@@ -64,7 +47,6 @@ export function CatchBoundary() {
 
   return (
     <main>
-      <NewNote />
       <p className="info-message">{message}</p>
     </main>
   );
@@ -80,4 +62,8 @@ export function ErrorBoundary({ error }) {
       </p>
     </main>
   );
+}
+
+export function links() {
+  return [{ rel: "stylesheet", href: notesStyles }];
 }

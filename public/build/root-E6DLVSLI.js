@@ -7,15 +7,15 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration
-} from "/build/_shared/chunk-AMXRFA7U.js";
+} from "/build/_shared/chunk-WRYHSGZG.js";
+import {
+  createHotContext
+} from "/build/_shared/chunk-N7UW2VWJ.js";
 import "/build/_shared/chunk-GIAAE3CH.js";
 import {
   require_jsx_dev_runtime
 } from "/build/_shared/chunk-XU7DNSPJ.js";
 import "/build/_shared/chunk-BOXFZXVX.js";
-import {
-  createHotContext
-} from "/build/_shared/chunk-N7UW2VWJ.js";
 import "/build/_shared/chunk-UWV35TSL.js";
 import {
   __toESM
@@ -118,14 +118,19 @@ function Layout({
         lineNumber: 30,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("link", { href: "https://fonts.googleapis.com/icon?family=Material+Icons", rel: "stylesheet" }, void 0, false, {
         fileName: "app/root.tsx",
         lineNumber: 31,
         columnNumber: 9
       }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
+        fileName: "app/root.tsx",
+        lineNumber: 34,
+        columnNumber: 9
+      }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 32,
+        lineNumber: 35,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
@@ -137,17 +142,17 @@ function Layout({
       children,
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 36,
+        lineNumber: 39,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 37,
+        lineNumber: 40,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 34,
+      lineNumber: 37,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
@@ -161,22 +166,22 @@ function App() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("div", { children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(mainNav_default, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 45,
+      lineNumber: 48,
       columnNumber: 9
     }, this) }, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 44,
+      lineNumber: 47,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Outlet, {}, void 0, false, {
       fileName: "app/root.tsx",
-      lineNumber: 47,
+      lineNumber: 50,
       columnNumber: 7
     }, this),
     ";"
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 43,
+    lineNumber: 46,
     columnNumber: 10
   }, this);
 }
@@ -188,86 +193,86 @@ function CatchBoundary() {
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 56,
+        lineNumber: 59,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 57,
+        lineNumber: 60,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("title", { children: caughtResponse.statusText }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 58,
+        lineNumber: 61,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 55,
+      lineNumber: 58,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(mainNav_default, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 62,
+        lineNumber: 65,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 61,
+        lineNumber: 64,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("main", { className: "error", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: caughtResponse.statusText }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 65,
+          lineNumber: 68,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: caughtResponse.data?.message || "Something went wrong!" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 66,
+          lineNumber: 69,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
           "Back to ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/", children: "safety" }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 68,
+            lineNumber: 71,
             columnNumber: 21
           }, this),
           "!"
         ] }, void 0, true, {
           fileName: "app/root.tsx",
-          lineNumber: 67,
+          lineNumber: 70,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 64,
+        lineNumber: 67,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 71,
+        lineNumber: 74,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 72,
+        lineNumber: 75,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 73,
+        lineNumber: 76,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 60,
+      lineNumber: 63,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 54,
+    lineNumber: 57,
     columnNumber: 10
   }, this);
 }
@@ -280,86 +285,86 @@ function ErrorBoundary({
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("head", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Meta, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 84,
+        lineNumber: 87,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Links, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 85,
+        lineNumber: 88,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("title", { children: "An error occurred!" }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 86,
+        lineNumber: 89,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 83,
+      lineNumber: 86,
       columnNumber: 7
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("body", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("header", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(mainNav_default, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 90,
+        lineNumber: 93,
         columnNumber: 11
       }, this) }, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 89,
+        lineNumber: 92,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("main", { className: "error", children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("h1", { children: "An error occurred!" }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 93,
+          lineNumber: 96,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: error.message }, void 0, false, {
           fileName: "app/root.tsx",
-          lineNumber: 94,
+          lineNumber: 97,
           columnNumber: 11
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)("p", { children: [
           "Back to ",
           /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Link, { to: "/", children: "safety" }, void 0, false, {
             fileName: "app/root.tsx",
-            lineNumber: 96,
+            lineNumber: 99,
             columnNumber: 21
           }, this),
           "!"
         ] }, void 0, true, {
           fileName: "app/root.tsx",
-          lineNumber: 95,
+          lineNumber: 98,
           columnNumber: 11
         }, this)
       ] }, void 0, true, {
         fileName: "app/root.tsx",
-        lineNumber: 92,
+        lineNumber: 95,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(ScrollRestoration, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 99,
+        lineNumber: 102,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(Scripts, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 100,
+        lineNumber: 103,
         columnNumber: 9
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime2.jsxDEV)(LiveReload, {}, void 0, false, {
         fileName: "app/root.tsx",
-        lineNumber: 101,
+        lineNumber: 104,
         columnNumber: 9
       }, this)
     ] }, void 0, true, {
       fileName: "app/root.tsx",
-      lineNumber: 88,
+      lineNumber: 91,
       columnNumber: 7
     }, this)
   ] }, void 0, true, {
     fileName: "app/root.tsx",
-    lineNumber: 82,
+    lineNumber: 85,
     columnNumber: 10
   }, this);
 }
@@ -386,4 +391,4 @@ export {
   App as default,
   links
 };
-//# sourceMappingURL=/build/root-S53LIJPV.js.map
+//# sourceMappingURL=/build/root-E6DLVSLI.js.map

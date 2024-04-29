@@ -1,0 +1,23 @@
+.container {
+  text-align: center;
+}
+
+.navigation ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: var(--color-primary-10);
+}
+
+.nav-item a:hover,
+.nav-item a.active {
+  color: var(--color-secondary-200);
+}
